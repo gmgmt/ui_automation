@@ -1,0 +1,13 @@
+#----------------------搜索界面----------------------#
+#搜索框
+searchBar: {resourceId: "com.upuphone.ar.navi.lite:id/keyWord" }
+#搜索按钮
+searchButton: {resourceId: "com.upuphone.ar.navi.lite:id/search"}
+#搜索结果
+result: {resourceId: "com.upuphone.ar.navi.lite:id/name"}
+#清空历史记录
+clearHistory: {resourceId: "com.upuphone.ar.navi.lite:id/menue"}
+#无结果框
+non_result: {resourceId: "com.upuphone.ar.navi.lite:id/search_result_recycler"}
+
+

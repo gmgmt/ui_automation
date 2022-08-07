@@ -1,0 +1,77 @@
+# ----------AR导航app测试通用数据------------
+common:
+  username: &username "xxx"
+  mobile_number: &mobile_number "13205569804"
+
+
+# -------------------路线规划用例数据-------------------
+
+# ----------查看路线用例数据----------
+test_route_view:
+  address: "众腾大厦"
+  textContains: "众腾"
+  devices1: "d09f926f"
+  devices2: "da02a30d"
+
+# ----------切换步行用例数据----------
+test_route_switch_walk:
+  address: "环球中心"
+  textContains: "环球中心"
+  check_words: "路口"
+#  check_words: "Crossings"
+
+# ----------开始导航用例数据----------
+test_route_start_navigation:
+  address: "环球中心"
+  textContains: "环球中心"
+
+# ----------结束导航用例数据----------
+test_route_end_navigation:
+  address: "环球中心"
+  textContains: "环球中心"
+
+# -------------------搜索用例数据-------------------
+
+# ----------点击清空历史记录用例数据----------
+test_search_clear_history:
+  clear_history: "清空历史记录"
+
+
+# ----------搜索城市用例数据----------
+test_search_city:
+  address: "成都市"
+  textContains: "成都"
+  # 第几条搜索结果
+  number: 1
+
+# ----------搜索地铁站用例数据----------
+test_search_search_subway:
+  address: "龙桥路"
+  textContains: "龙桥路"
+  # 第几条搜索结果
+  number: 1
+
+# ----------搜索超市用例数据----------
+test_search_search_supermarket:
+  address: "大润发"
+  textContains: "大润发"
+  # 第几条搜索结果
+  number: 1
+
+# ----------输入数字用例数据----------
+test_search_input_numbers:
+  address: 12345
+  textContains: "12345"
+  # 第几条搜索结果
+  number: 1
+
+# ----------输入英文用例数据----------
+test_search_input_english:
+  address: "ocg"
+  textContains: "ocg"
+  # 第几条搜索结果
+  number: 1
+
+# ----------输入英文用例数据----------
+test_search_input_complex_character:
+  address: "abc456,.@@"

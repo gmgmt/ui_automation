@@ -1,0 +1,18 @@
+#----------------------规划界面----------------------#
+#搜索框
+searchBar: {resourceId: "com.upuphone.ar.navi.lite:id/keyWord" }
+#搜索按钮
+searchButton: {resourceId: "com.upuphone.ar.navi.lite:id/search"}
+#路线规划
+route: {resourceId: "com.upuphone.ar.navi.lite:id/navi_route"}
+#搜索结果
+result: {resourceId: "com.upuphone.ar.navi.lite:id/name"}
+resultCheck: {resourceId: "com.upuphone.ar.navi.lite:id/navi_drive"}
+#步行
+walk: {resourceId: "com.upuphone.ar.navi.lite:id/navi_walk"}
+#退出导航
+start_navigation: {resourceId: "com.upuphone.ar.navi.lite:id/navi", text: "START GAVIGATION"}
+#退出导航
+exit_navigation: {resourceId: "com.upuphone.ar.navi.lite:id/navi", text: "退出导航"}
+#剩余时间
+remain_time: {resourceId: "com.upuphone.ar.navi.lite:id/pathRemainTime"}
